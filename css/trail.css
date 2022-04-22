@@ -1,0 +1,129 @@
+
+.background {
+    background-color: #22577E;
+    font-family: sans-serif;
+    
+    
+}
+
+
+
+
+.table{
+
+    font-style: italic;
+}
+
+.div-trail{
+
+    color: aqua;
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+}
+
+
+.sub-heading {
+
+    text-align: center;
+    font-family: 'Brush Script MT', cursive;
+    color: #F7F5F2;
+}
+
+.info{
+ text-align: center;
+}
+
+.sub-heading2 {
+    color: #FFD36E;
+    text-align: center;
+    transition: width 0.25s;
+}
+
+.sub-heading2:hover{
+    width: 12%;
+    height: 12%;
+}
+
+.sub-heading3 {
+    text-align: center;
+    color: antiquewhite;
+}
+
+.img {
+    width: 50%;
+    height: 50%;
+    float: left;
+    margin-right: 2%;
+    margin-left: 15.9%;
+
+  transition: width 0.25s ;
+  
+
+    
+}
+
+.img:hover {
+    width: 12%;
+    height: 12%;
+}
+
+
+.info{
+    font-size: medium;
+}
+
+.jadoo {
+   
+    font-size: 275%;
+    font: bold  italic 45px Roboto, sans-serif;
+    text-align: center;
+    color: aqua;
+    
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+@keyframes example{
+    from{color: red;}
+    to { color: yellow;}
+
+}
+
+.about{
+    
+    color: azure;
+    font-family: sans-serif;
+    font-size: 100%;
+    margin-top: 40%;
+    
+    text-align: center;
+   
+}
+
+.maruti{
+    float: left;
+    width: 15%;
+    height: 15%;
+    margin-left: 10%;
+    margin-right: 20%;
+   
+}
+
+.maruti-para {
+    color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin-top: 0.01%;
+
+}
+
+.hr1 {
+    clear: left;
+}
+
+.about-div {
+    margin-top: 2%;
+    clear: left;
+}
+
